@@ -43,6 +43,7 @@ Aplikasi ini adalah solusi manajemen perjalanan dan ulasan pelanggan yang terint
 - 📧 **Firebase Authentication (OTP)**
 - 📮 **Email API** untuk notifikasi OTP & ticket
 - 🛢️ **SQL Server** (cloud database)
+- **LiveData, ViewModel, Coroutines**
 
 ---
 
