@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "66080140129",
+    "project_id": "notifbus",
+    "storage_bucket": "notifbus.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66080140129:android:17838b62e1ccc023fe7320",
+        "android_client_info": {
+          "package_name": "com.example.notifbus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN_qE5J6XfzsYN61yE7iA4251AXeryBgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
