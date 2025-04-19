@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/6de00831-886f-4132-92a9-641e9009ea2f)
+
+
+
 # 🚌 Feedback Tiket Perjalanan — Smart Bus Ticket & Review System
 
 Aplikasi ini adalah solusi manajemen perjalanan dan ulasan pelanggan yang terintegrasi, cocok digunakan oleh perusahaan bus, travel, atau layanan transportasi lainnya. Sistem ini terbagi menjadi dua: **Admin** dan **Customer**, dilengkapi dengan sistem notifikasi, validasi, OTP email, serta feedback loop yang profesional.
