@@ -36,7 +36,7 @@ jobs:
 
       # Step 6: Simpan APK sebagai artifact
       - name: Save APK Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@3a181e76bba34e70d3efedc4d0e51be9c3771e3b
         with:
           name: debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
