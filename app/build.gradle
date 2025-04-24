@@ -17,10 +17,18 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "IP_KEY", "\"${getSecretKey("IP_KEY")}\"")
-        buildConfigField("String", "USER_KEY", "\"${getSecretKey("USER_KEY")}\"")
-        buildConfigField("String", "DB_KEY", "\"${getSecretKey("DB_KEY")}\"")
-        buildConfigField("String", "PAS_KEY", "\"${getSecretKey("PAS_KEY")}\"")
+
+        def IP_KEY = System.getenv("IP_KEY") ?: ""
+        buildConfigField("String", "IP_KEY", "\"$IP_KEY\"")
+
+        def USER_KEY = System.getenv("USER_KEY") ?: ""
+        buildConfigField("String", "USER_KEY", "\"$USER_KEY\"")
+
+        def DB_KEY = System.getenv("DB_KEY") ?: ""
+        buildConfigField("String", "DB_KEY", "\"$DB_KEY\"")
+
+        def PAS_KEY = System.getenv("PAS_KEY") ?: ""
+        buildConfigField("String", "PAS_KEY", "\"$PAS_KEY\"")
     }
 
     buildTypes {
