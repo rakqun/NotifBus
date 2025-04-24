@@ -50,17 +50,17 @@
         </service>
 
         <meta-data
-            android:name="sqlIp"
-            android:value="${ip}" />
+            android:name="IP_KEY"
+            android:value="${IP_KEY}" />
         <meta-data
-            android:name="sqlUser"
-            android:value="${user}" />
+            android:name="USER_KEY"
+            android:value="${USER_KEY}" />
         <meta-data
-            android:name="sqlDb"
-            android:value="${db}" />
+            android:name="DB_KEY"
+            android:value="${DB_KEY}" />
         <meta-data
-            android:name="sqlPass"
-            android:value="${pass}" />
+            android:name="PAS_KEY"
+            android:value="${PAS_KEY}" />
     </application>
 
 </manifest>

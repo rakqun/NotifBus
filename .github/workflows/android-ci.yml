@@ -28,6 +28,10 @@ jobs:
       - name: Create local.properties
         run: |
           echo "sdk.dir=$ANDROID_HOME" > local.properties
+          echo "IP_KEY=${{ secrets.IP_KEY }}" >> local.properties
+          echo "DB_KEY=${{ secrets.DB_KEY }}" >> local.properties
+          echo "USER_KEY=${{ secrets.USER_KEY }}" >> local.properties
+          echo "PAS_KEY=${{ secrets.PAS_KEY }}" >> local.properties
 
       - name: Move local.properties
         run: mv local.properties ./app/

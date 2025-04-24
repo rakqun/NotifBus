@@ -21,10 +21,10 @@ public class Connection {
         }
 
         Bundle metaData = ai.metaData;
-        String ip = metaData.getString("sqlIp");
-        String user = metaData.getString("sqlUser");
-        String db = metaData.getString("sqlDb");
-        String pass = metaData.getString("sqlPass");
+        String ip = metaData.getString("IP_KEY");
+        String user = metaData.getString("USER_KEY");
+        String db = metaData.getString("DB_KEY");
+        String pass = metaData.getString("PAS_KEY");
         StrictMode.ThreadPolicy p = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(p);
         java.sql.Connection con = null;
