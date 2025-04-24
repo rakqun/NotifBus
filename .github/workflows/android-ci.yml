@@ -25,6 +25,13 @@ jobs:
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
 
+      - name: Create local.properties
+        run: |
+          echo "sdk.dir=$ANDROID_HOME" > local.properties
+
+      - name: Move local.properties
+        run: mv local.properties ./app/
+
       # Step 3: Grant permission to execute gradlew
       - name: Grant permission to Gradle
         run: chmod +x ./gradlew
